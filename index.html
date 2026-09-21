@@ -9,12 +9,13 @@
   <body>
     <div id="valentineQuestion"><b>Do you want to be a couple?</b></div>
     <button class="answerButton" onclick="location.href='thankyou.html'">
+
       Yes
+
     </button>
     <button class="answerButton" id="noButton">I no no wanna o(╥﹏╥)o</button>
     <br />
-    <img src="alisa.jpeg" alt="Alisa" class="responsive" />
-
+    <img src="cat.gif" alt="cat asking question" class="responsive" />
     <script>
       document
         .getElementById("noButton")
@@ -25,7 +26,7 @@
           var currentFontSize = parseInt(
             window.getComputedStyle(yesButton).fontSize
           );
-          yesButton.style.fontSize = currentFontSize + 10 + "px"; // Increase font size by 10px
+          yesButton.style.fontSize = currentFontSize + 10 + "px"; // Increase font size by 5px
         });
     </script>
   </body>
