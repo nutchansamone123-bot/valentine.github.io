@@ -13,12 +13,12 @@ body {
 
 /* คุมขนาดรูปหน้า thankyou ให้เท่ากับรูปแมวหน้าแรก */
 #rizz, .responsive {
-  max-width: 280px; /* ขนาดความกว้างเท่ารูปแมว */
-  width: 90%;
+  max-width: 200px; /* ขนาดความกว้างเท่ารูปแมว */
+  width: 50%;
   height: auto;
-  border-radius: 15px;
+  border-radius: 10px;
   display: block;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 15px auto;
 }
 
 .button {
